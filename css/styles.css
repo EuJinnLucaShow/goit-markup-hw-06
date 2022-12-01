@@ -781,6 +781,7 @@ form {
 
 input {
   padding: 18px;
+  margin-right: 12px;
 }
 
 input::placeholder {
@@ -788,7 +789,5 @@ input::placeholder {
 }
 
 .btn-submit-icon {
-  display: flex;
-  align-items: center;
-  text-align: center;
+  margin-left: 10px;
 }
