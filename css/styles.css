@@ -825,6 +825,14 @@ footer {
   margin: 0.4rem;
 }
 
+.form-checkbox {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 .form-link {
   text-decoration-line: underline;
   color: #2196f3;
