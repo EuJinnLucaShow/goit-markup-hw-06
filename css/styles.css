@@ -693,7 +693,7 @@ footer {
   transition: transform 250ms;
 }
 
-/* Модальне вікно */
+/* !-- Modal window, pop-up window, (pop-up) -- */
 
 .backdrop {
   position: fixed;
@@ -712,6 +712,8 @@ footer {
 
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0) translate(0, 100%) rotate(150deg);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
