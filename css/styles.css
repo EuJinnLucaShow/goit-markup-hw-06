@@ -733,6 +733,60 @@ footer {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.email-modal-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  width: 100%;
+  padding: 10px;
+}
+
+.modal-form-item {
+  height: 40px;
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.modal-form-commit {
+  height: 120px;
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.modal-form-commit::placeholder {
+  position: fixed;
+  top: 12px;
+  left: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16x;
+  letter-spacing: 0.01em;
+
+  color: #757575;
+}
+
+/* .modal-form-list {
+  width: 100%;
+} */
+
 .btn-modal {
   position: absolute;
   right: 8px;
