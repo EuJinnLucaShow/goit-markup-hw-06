@@ -760,6 +760,7 @@ footer {
   border-radius: 4px;
   margin-top: 4px;
   margin-bottom: 10px;
+  resize: none;
 }
 
 .modal-form-commit {
@@ -791,7 +792,7 @@ footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-  border-color: inherit;
+  border-color: transparent;
 }
 
 .btn-modal {
