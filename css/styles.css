@@ -765,13 +765,14 @@ footer {
 
 .modal-form-item:hover,
 .modal-form-item:focus {
-  fill: #2196f3;
   border-color: #2196f3;
+  outline: none;
 }
 
 .modal-form-commit:hover,
 .modal-form-commit:focus {
   border-color: #2196f3;
+  outline: none;
 }
 
 .icon-form {
@@ -840,6 +841,7 @@ footer {
 .btn-modal:hover,
 .btn-modal:focus {
   fill: #2196f3;
+  outline: none;
 }
 
 .chekbox-form {
