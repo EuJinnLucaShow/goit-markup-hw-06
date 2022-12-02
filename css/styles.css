@@ -701,8 +701,9 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  transition: 0.8s;
   background-color: rgba(0, 0, 0, 0.2);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
