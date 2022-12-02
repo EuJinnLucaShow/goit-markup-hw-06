@@ -813,6 +813,10 @@ footer {
   margin: 0.4rem;
 }
 
+.form-link {
+  text-decoration-line: underline;
+  color: #2196f3;
+}
 /* email-input */
 
 .email-input {
