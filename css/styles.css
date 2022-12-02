@@ -758,8 +758,13 @@ footer {
   position: relative;
 }
 
-.form-field:hover,
-.form-field:focus {
+.form-field:focus-within {
+  fill: #2196f3;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-field:hover {
   fill: #2196f3;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
