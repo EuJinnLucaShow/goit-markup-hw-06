@@ -761,18 +761,24 @@ footer {
 .form-field:hover,
 .form-field:focus {
   fill: #2196f3;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-item:hover,
 .modal-form-item:focus {
   border-color: #2196f3;
   outline: none;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-commit:hover,
 .modal-form-commit:focus {
   border-color: #2196f3;
   outline: none;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-form {
@@ -825,6 +831,8 @@ footer {
 .btn-modal-form:hover,
 .btn-modal-form:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-modal {
@@ -846,6 +854,8 @@ footer {
 .btn-modal:focus {
   fill: #2196f3;
   outline: none;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .chekbox-form {
