@@ -762,30 +762,37 @@ footer {
   margin-bottom: 10px;
 }
 
-.modal-form-commit::placeholder {
-  position: fixed;
-  top: 12px;
-  left: 16px;
+.modal-form-commit {
+  padding-top: 12px;
+  padding-left: 16px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.16;
   letter-spacing: 0.01em;
-
   color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-label {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16x;
+  line-height: 1.16;
   letter-spacing: 0.01em;
 
   color: #757575;
 }
 
-/* .modal-form-list {
-  width: 100%;
-} */
+.btn-modal-form {
+  margin-left: 124px;
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: inherit;
+}
 
 .btn-modal {
   position: absolute;
@@ -800,6 +807,10 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.chekbox-form {
+  margin: 0.4rem;
 }
 
 /* email-input */

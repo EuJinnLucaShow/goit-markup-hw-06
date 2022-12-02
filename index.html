@@ -377,14 +377,15 @@
           <label for="user_email" class="modal-label">Пошта</label>
           <input type="email" name="email" id="user_email" class="modal-form-item" />
 
-          <label for="text" class="modal-label">Коментар</label>
-          <input type="text" name="text" class="modal-form-commit" placeholder="Введіть текст" />
+          <label for="text" class="modal-label">Коментар
+            <textarea name="feedback" class="modal-form-commit" placeholder="Введіть текст"></textarea>
+          </label>
 
-          <label>
-            <input type="checkbox" name="accept" value="agreement" />Погоджуюся з розсилкою та приймаю <a href="">Умови
-              договору</a></label>
+          <input type="checkbox" name="accept" value="agreement" class="chekbox-form" />Погоджуюся з розсилкою та
+          приймаю <a href="">Умови
+            договору</a>
 
-          <button type="submit">Відправити</button>
+          <button type="submit" class="btn-modal-form">Відправити</button>
         </form>
       </div>
       <button data-modal-close type="button" class="btn-modal"><svg width="11" height="11" class="btn-modal-icon">
