@@ -863,9 +863,7 @@ footer {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .chekbox-form {
-  margin: 0.4rem;
-} */
+/* stylization checkbox */
 
 .custom-checkbox {
   position: absolute;
@@ -910,12 +908,10 @@ footer {
 }
 
 .form-link {
+  margin-left: 4px;
   text-decoration-line: underline;
   color: #2196f3;
 }
-/* .custom-checkbox:focus:not(:checked) + label::before {
-  border-color: #80bdff;
-} */
 
 /* email-input */
 
