@@ -876,7 +876,7 @@ footer {
 .custom-checkbox + label {
   display: inline-flex;
   align-items: center;
-  margin: 0.6rem;
+  margin: 9px;
   user-select: none;
 }
 .custom-checkbox + label::before {
@@ -888,7 +888,7 @@ footer {
   flex-grow: 0;
   border: 2px solid #212121;
   border-radius: 2px;
-  margin-right: 0.5em;
+  margin-right: 8px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 50% 50%;
@@ -900,10 +900,6 @@ footer {
   border-color: transparent;
   background-image: url(../images/icon_check.svg);
 }
-
-/* .custom-checkbox:focus:not(:checked) + label::before {
-  border-color: #80bdff;
-} */
 
 .text-checkbox {
   font-weight: 400;
@@ -917,6 +913,10 @@ footer {
   text-decoration-line: underline;
   color: #2196f3;
 }
+/* .custom-checkbox:focus:not(:checked) + label::before {
+  border-color: #80bdff;
+} */
+
 /* email-input */
 
 .email-input {
